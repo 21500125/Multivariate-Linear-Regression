@@ -14,6 +14,10 @@ Step6: Print the predicted output.
 
 ## Program:
 ```
+'''
+   Developed by:Sithi hajara I
+   Reference no:21500125
+'''   
 import pandas as pd
 from sklearn import linear_model 
 df=pd.read_csv("cars.csv")
@@ -28,12 +32,12 @@ print("Predicted CO2 for the corresponding weight and volume",predictedCO2)
 
 ```
 ## Output:
+![M1 (2)](https://user-images.githubusercontent.com/94219582/153833627-97a50d81-32bf-45a2-a29c-0fc2a3b657cd.PNG)
+
+### Insert your output
 Coefficient: [0.00755095 0.00780526]
 Intercept: 79.69471929115939
 Predicted CO2 for the corresponding weight and volume [114.75968007]
-
-### Insert your output
-![M1 (2)](https://user-images.githubusercontent.com/94219582/153830086-614efa04-0828-45b1-a1c7-57a04527cbf4.PNG)
 
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
